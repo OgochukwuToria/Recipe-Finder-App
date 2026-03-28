@@ -1,0 +1,30 @@
+{
+  "appTitle": "Receptsök",
+  "home": "Hem",
+  "search": "Sök",
+  "searchPlaceholder": "Sök recept (t.ex. kyckling)...",
+  "favorites": "Favoriter",
+  "categories": "Kategorier",
+  "areas": "Kök",
+  "popular": "Utforska",
+  "randomPick": "Kockens slumpmässiga val",
+  "viewRecipe": "Visa recept",
+  "loading": "Laddar...",
+  "errorLoading": "Fel vid inläsning",
+  "noResults": "Inga recept hittades. Prova en annan sökning!",
+  "filterByCategory": "Filtrera efter kategori",
+  "filterByArea": "Filtrera efter kök",
+  "clearFilters": "Rensa filter",
+  "addFavorite": "Lägg till i favoriter",
+  "removeFavorite": "Ta bort favorit",
+  "ingredients": "Ingredienser",
+  "instructions": "Instruktioner",
+  "openInSource": "Öppna i källa",
+  "language": "Språk",
+  "madeWith": "Byggt med React, React Bootstrap och TheMealDB API",
+"apiLanguageNote": "Observera: Receptbeskrivningar finns endast på engelska.",
+"heroTitle": "Upptäck läckra recept",
+"heroSubtitle": "Hitta inspiration till din nästa måltid på några sekunder "
+
+
+}

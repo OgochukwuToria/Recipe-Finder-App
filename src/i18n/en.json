@@ -1,0 +1,30 @@
+{
+  "appTitle": "Recipe Finder",
+  "home": "Home",
+  "search": "Search",
+  "searchPlaceholder": "Search recipes (e.g. chicken)...",
+  "favorites": "Favorites",
+  "categories": "Categories",
+  "areas": "Cuisines",
+  "popular": "Explore",
+  "randomPick": "Chef's Random Pick",
+  "viewRecipe": "View Recipe",
+  "loading": "Loading...",
+  "errorLoading": "Error loading data",
+  "noResults": "No recipes found. Try another search!",
+  "filterByCategory": "Filter by category",
+  "filterByArea": "Filter by cuisine",
+  "clearFilters": "Clear filters",
+  "addFavorite": "Add to Favorites",
+  "removeFavorite": "Remove Favorite",
+  "ingredients": "Ingredients",
+  "instructions": "Instructions",
+  "openInSource": "Open in Source",
+  "language": "Language",
+  "madeWith": "Made with React, React Bootstrap, and TheMealDB API",
+"apiLanguageNote": "Note: Recipe descriptions are available only in English.",
+"heroTitle": "Discover Delicious Recipes",
+"heroSubtitle": "Find inspiration for your next meal in seconds "
+
+
+}

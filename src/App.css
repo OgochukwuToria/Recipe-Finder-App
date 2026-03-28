@@ -1,0 +1,356 @@
+
+.hover-card:hover,
+.card:hover {
+  transform: translateY(-4px);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.card,
+.navbar,
+.btn,
+.form-control {
+  border-radius: 1rem !important;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.5s ease;
+}
+
+/* Card hover and soft styling */
+.hover-card:hover,
+.card:hover {
+  transform: translateY(-4px);
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card,
+.navbar,
+.btn,
+.form-control {
+  border-radius: 1rem !important;
+}
+
+
+
+/* DARK MODE STYLES */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+  color: #fff !important;
+}
+
+body.dark-mode .nav-link:hover {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 0;
+}
+
+.hero-section * {
+  position: relative;
+  z-index: 1;
+}
+
+body.dark-mode .hero-section h1,
+body.dark-mode .hero-section p {
+  color: #fff !important;
+}
+
+/* Cards */
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: #fff !important;
+  border-color: #333 !important;
+}
+
+body.dark-mode .card-title,
+body.dark-mode .card-text {
+  color: #fff !important;
+}
+
+/* Buttons */
+body.dark-mode .btn-warning {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+body.dark-mode .btn-success {
+  background-color: #28a745 !important;
+  border: none !important;
+}
+
+/* Badges */
+body.dark-mode .badge.bg-secondary {
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+/* Forms */
+body.dark-mode .form-control {
+  background-color: #222 !important;
+  color: #fff !important;
+  border: 1px solid #555 !important;
+}
+
+body.dark-mode .form-control::placeholder {
+  color: #bbb !important;
+}
+
+/* Footer */
+body.dark-mode footer,
+body.dark-mode .app-footer {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Text elements */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode .lead,
+body.dark-mode .display-5 {
+  color: #fff !important;
+}
+
+body.dark-mode .text-muted {
+  color: #aaa !important;
+}
+
+/* Scroll to top button */
+body.dark-mode .btn-warning:hover {
+  background-color: #ffca2c !important;
+}
+
+
+/* Simple fade-in */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.4s ease;
+}
+
+.hero-container {
+  height: 340px;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-background.fade-in {
+  opacity: 1;
+}
+
+.hero-background.fade-out {
+  opacity: 0;
+}
+
+/* Gradient Overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+.text-shadow {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Card Hover */
+.hover-card:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.nav-hover {
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  padding: 6px 12px !important;
+  font-weight: 500;
+  color: #333 !important;
+}
+
+.nav-hover:hover {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+.nav-hover.active {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.4);
+  transform: translateY(-1px);
+}
+
+
+.nav-hover,
+.nav-hover:hover,
+.nav-hover.active {
+  transition: all 0.25s ease-in-out;
+}
+
+.navbar .nav-link.nav-hover {
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px !important;
+  border-radius: 8px;
+  transition: all 0.25s ease-in-out;
+  color: #ffffff !important; 
+  font-weight: 500;
+}
+
+
+.navbar-dark .nav-link.nav-hover:hover,
+.navbar-light .nav-link.nav-hover:hover {
+  background-color: #ffc107 !important; 
+  color: #000 !important;
+}
+
+
+.navbar-dark .nav-link.nav-hover.nav-hover-active,
+.navbar-light .nav-link.nav-hover.nav-hover-active {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Focus/keyboard nav (optional) */
+.navbar .nav-link.nav-hover:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.15rem rgba(255, 193, 7, 0.45);
+}
+/*  Add spacing between nav links */
+.navbar .nav-link.nav-hover {
+  margin-right: 12px; 
+}
+
+.navbar .nav-link.nav-hover:last-child {
+  margin-right: 0; 
+
+
+.app-footer {
+  background-color: #212529; /* dark footer, matches navbar */
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: make footer sticky only if content is short */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.app-footer small {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .app-footer small {
+    font-size: 0.8rem;
+  }
+}
+
+}
+
+.app-footer {
+  background-color: #212529; /* dark footer matches navbar */
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
